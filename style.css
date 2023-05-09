@@ -1,0 +1,98 @@
+@import url(reset.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    
+  }
+body {
+    background-image: url('pexels-life-of-pix-8892.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+/* Genel sayfa ayarları */
+#sayfa {
+    width: 800px;
+    margin: auto;
+   
+    padding: 20px;
+}
+
+/* Giriş formu ayarları */
+label {
+    display: block;
+    margin-top: 10px;
+    font-size: 1.2em;
+    color: white;
+}
+
+input {
+    width: 100%;
+    height: 50px;
+    font-size: 1.2em;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: all 1s;
+}
+
+button {
+    border: none;
+    display: block;
+    margin-top: 10px;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    font-size: 1.2em;
+    background-color: #f44336;
+    color: #fff;
+    border-radius: 5px;
+ cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #00468b;
+}
+
+input:hover{
+    background-color: #FF8A56;
+    
+    font-weight: bold;
+    box-shadow: 2px 2px 5px 5px rgb(255, 3, 3);
+}
+
+
+/* Tablo ayarları */
+table {
+    background: #fff;
+    margin: 10px 0;
+    width: 100%;
+    color: #333;
+    border-collapse: collapse;
+}
+
+td, th {
+    border: 1px solid #ccc;
+    padding: 5px;
+}
+
+th {
+    background-color: #f44336;
+    color: #fff;
+}
+#div {
+    width: 800px;
+    margin: auto;
+   
+    padding: 20px;
+    padding-top: 100px;
+}
